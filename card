@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Loja Virtual</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Cabeçalho -->
+    <header>
+      <img
+        src="https://via.placeholder.com/150x40?text=Loja+Virtual"
+        alt="Logotipo da loja"
+      />
+      <nav>
+        <a href="#inicio">Início</a>
+        <a href="#produtos">Produtos</a>
+        <a href="#sobre-nos">Sobre nós</a>
+        <a href="#contato">Contato</a>
+        <a href="#carrinho">Carrinho</a>
+      </nav>
+      <div class="search-bar">
+        <input type="text" placeholder="Buscar produtos..." />
+      </div>
+    </header>
+
+    <!-- Seção Principal -->
+    <main>
+      <!-- Banner Promocional -->
+      <section class="banner" id="inicio">
+        <h1>Descontos de 20% em todos os produtos!</h1>
+        <p>Não perca essa oportunidade. Confira agora!</p>
+      </section>
+
+      <!-- Filtros e Produtos -->
+      <section class="product-section" id="produtos">
+        <div class="filters">
+          <label for="category">Categoria:</label>
+          <select id="category">
+            <option>Todos</option>
+            <option>Eletrônicos</option>
+            <option>Roupas</option>
+            <option>Acessórios</option>
+          </select>
+
+          <label for="price">Preço:</label>
+          <select id="price">
+            <option>Todos</option>
+            <option>Menor que R$50</option>
+            <option>R$50 - R$200</option>
+            <option>Acima de R$200</option>
+          </select>
+        </div>
+
+        <!-- Produtos em Destaque -->
+        <div class="product-cards">
+          <div class="product-card">
+            <img src="imagens/produto1.jpg" alt="Produto 1" />
+            <h3>Celulares e Acessórios</h3>
+            <p>Frete GRÁTIS e até 20% OFF na primeira compra.</p>
+            <p><strong>A partir de R$ 1.299,90</strong></p>
+            <button>
+              <img src="https://cdn-icons-png.flaticon.com/512/126/126510.png" alt="Ícone Carrinho" />
+              Adicionar ao Carrinho
+            </button>
+          </div>
+          <div class="product-card">
+            <img src="imagens/produto2.jpg" alt="Produto 2" />
+            <h3>Roupas, Calçados e Acessórios</h3>
+            <p>A Nova coleção está Bombando! Confira com 15% OFF.</p>
+            <p><strong>A partir de R$ 89,90</strong></p>
+            <button>
+              <img src="https://cdn-icons-png.flaticon.com/512/126/126510.png" alt="Ícone Carrinho" />
+              Adicionar ao Carrinho
+            </button>
+          </div>
+          <div class="product-card">
+            <img src="imagens/produto3.jpg" alt="Produto 3" />
+            <h3>Tudo em Acessórios</h3>
+            <p>Ofertas para todos os bolsos com frete grátis e 10% OFF.</p>
+            <p><strong>A partir de R$ 39,90</strong></p>
+            <button>
+              <img src="https://cdn-icons-png.flaticon.com/512/126/126510.png" alt="Ícone Carrinho" />
+              Adicionar ao Carrinho
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="contato" id="contato">
+        <div class="container">
+          <h2 id="contato-text">Contato</h2>
+          <p>Mande uma mensagem para a gente</p>
+          <form action="https://formsubmit.co/gabriel.developer14@gmail.com" method="POST">
+            <label for="name">Seu nome:</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Digite seu nome:"
+              required
+            />
+            <label for="email">Seu E-mail:</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Seu E-mail:"
+              required
+            />
+            <label for="message">Sua mensagem:</label>
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Digite uma mensagem"
+              required
+            ></textarea>
+            <input type="submit" value="Enviar" />
+          </form>
+        </div>
+      </section>      
+
+    <!-- Rodapé -->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-section address">
+          <h4>Endereço</h4>
+          <p>Rua das Alamedas • 201 • Bairro Centro • Fortaleza • CE • CEP 60000-000 • Telefone: 85 1234.5678</p>
+        </div>
+        <div class="footer-section contact">
+          <h4>Contatos</h4>
+          <p>Email: <a href="mailto:capacitastory@gmail.com">capacitastory@gmail.com</a></p>
+        </div>
+        <div class="footer-section social-media">
+          <h4>Siga-nos</h4>
+          <a href="https://www.facebook.com/" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" width="20">
+          </a>
+          <a href="https://www.twitter.com/" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter" width="20">
+          </a>
+          <a href="https://www.instagram.com/" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram" width="20">
+          </a>
+          <a href="https://wa.me/5585321654987" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" width="20">
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Loja de Departamentos. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+  </body>
+</html>
