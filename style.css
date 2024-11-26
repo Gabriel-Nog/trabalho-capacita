@@ -64,7 +64,7 @@ nav a {
 }
 
 .product-card {
-    border: 1px solid #ddd;
+    border: 1px solid #2c1e4a;
     padding: 3px;
     width: calc(33.333% - 20px);
     box-sizing: border-box;
@@ -79,6 +79,38 @@ nav a {
 
 .product-card h3 {
     margin: 10px 0;
+}
+
+.product-card .container-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Botões dos Cards */
+.product-card button {
+    margin-top: 2rem;
+    background-color: #442063;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-card button:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+.product-card button img {
+    width: 16px;
+    height: 16px;
+    margin-right: 1rem;
 }
 
 .contato{
