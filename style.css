@@ -90,7 +90,6 @@ nav a {
 .product-card img {
     max-width: 100%;
     width: auto;
-  
 }
 
 .product-card h3 {
@@ -191,68 +190,23 @@ nav a {
     width: 8%;
     background-color: #333;
     color: #fff;
-    padding: 0.5rem 1rem;
     border: none;
     border-radius: 5px;
+    padding: 10px 15px;
     cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
 }
 
-.contato .container form input[type="submit"]:hover{
-    background-color:#fff;
-    color: #333;
-    font-weight: 700;
-    border: 1px solid #333;
-}
-footer {
-  background-color: #333;
-  color: #fff;
-  padding: 1px 0;
-  text-align: center;
-  font-family:'Roboto', sans-serif;
-  /* position: fixed; */
-  bottom: 0;
-  width: 100%;
-  font-size: 12px;
+.product-card button:hover {
+    background-color: #555;
+    color: #fff;
 }
 
-.footer-container {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.footer-section {
-  margin: 0 5px;
-}
-
-h4 {
-  margin-bottom: 1px;
-  text-transform: uppercase;
-  font-size: 12px;
-}
-
-p, a {
-  margin: 0;
-  font-size: 14px;
-  line-height: 2; /* Ajustando o espaçamento entre linhas */
-}
-
-a {
-  color: #fff;
-  text-decoration: none;
-}
-
-a img {
-  margin: 0 2px; /* Reduzindo a margem entre ícones */
-}
-
-a img:hover {
-  opacity: 0.8;
-}
-
-.footer-bottom {
-  margin-top: 1px; /* Ajustando a margem superior */
-  padding-top: 1px;
-  font-size: 12px;
-  line-height: 1; /* Reduzindo o espaçamento entre linhas */
+.product-card button img {
+    width: 16px;
+    height: 16px;
 }
