@@ -1,8 +1,12 @@
-body {
-    font-family: Arial, sans-serif;
+*{
+    box-sizing: border-box;  
     margin: 0;
     padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
     line-height: 1.6;
+    
 }
 
 header {
@@ -63,10 +67,22 @@ nav a {
     gap: 20px;
 }
 
+.product-cards .container-section{
+    width: 100%;
+    margin: 10px;
+    margin-top: 2rem;
+}
+
+.product-cards .container-section hr{
+    margin: 1rem 0;
+    border: 1px solid #333;
+}
+
 .product-card {
+    margin: 10px;
     border: 1px solid #2c1e4a;
     padding: 3px;
-    width: calc(33.333% - 20px);
+    width: calc(33.333% - 35px);
     box-sizing: border-box;
     text-align: center;
 }
@@ -85,6 +101,7 @@ nav a {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 1rem;
 }
 
 /* Botões dos Cards */
