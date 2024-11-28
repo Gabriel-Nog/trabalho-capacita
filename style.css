@@ -22,8 +22,8 @@ header {
 }
 
 header .logo {
-  width: 4rem;
-  height: 4rem;
+  width: 5rem;
+  height: 5rem;
   display: grid;
   place-items: center;
 }
@@ -60,7 +60,7 @@ header .logo {
 }
 
 .banner {
-  margin-top: 4rem;
+  margin-top: 5rem;
   background-color: #f4f4f4;
   text-align: center;
   padding: 10px;
